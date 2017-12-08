@@ -56,7 +56,7 @@
                          <br>
              <div class="col-12 col-md-3">
             {{Form::hidden('_method','PUT')}}
-             {{Form::submit('Submit', ['class'=>'btn btn-block btn-lg'])}}
+             <button id="editar" type="submit" class="btn btn-primary"> Create </button>
             </div>
 
 

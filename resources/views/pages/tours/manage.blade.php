@@ -27,7 +27,7 @@
          <div class="form-group">
             
             {{Form::label('description','Body')}}
-            {{Form::textarea('description','', ['id'=> 'article-ckeditor', 'class'=>'form-control', 'placeholder' => 'Tour Description'])}} <br>
+            {{Form::textarea('description','', ['class'=>'form-control', 'placeholder' => 'Tour Description'])}} <br>
 
         </div>
 
@@ -55,7 +55,7 @@
                          <br>
 
              <div class="col-12 col-md-3">
-             {{Form::submit('Submit', ['class'=>'btn btn-block btn-lg'])}}
+             <button id="crear" type="submit" class="btn btn-primary"> Create </button>
             </div>
             
 
